@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <title>Porfolio</title>
+</head>
+<body>
+    <section id="home">
+        <div class="container">
+            <header>
+                <a href="#"><img class="logo" src="../img/logo.png" alt=""><p class="design"><#/></p></a>
+                <menu>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skill</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </menu>
+            </header>
+            <!side bar taggle menu...>
+            <container id="nav-container">
+                <div class="button" tabindex="0">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+                <div id="nav-content" tabindex="0">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skill</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </container>
+
+            <footer class="my_name">
+                <h1>Hello <br> I'm <span class="auto_type"></span></h1>
+                <p>Bachelor of Science in Information Technology, I’m a future Web designer  and Web developer</p>
+                <a href="https://drive.google.com/file/d/1ES_J6_VzyggiWi5JTTNcR6qzZJhUzvOc/view?usp=sharing">View my CV</a>
+                <div class="container_image">
+                    <img class="my_pic" src="../img/jk_bNw_image.png" alt="image">
+                    <div class="circle"></div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <section id="about">
+        <footer class="content">
+            <h1>About me</h1>
+            <p>John Kenneth Ligero is a student at Bulacan State of University, <br>
+                he is graduating with a Bachelor of Science in Information Technology. <br> His experience in web designing, and knowledge of creating a website <br> him a mindful but competitive abroach. John is a motivated, positive person, <br> computer literate, flexible, and committed to work. <br><br>
+                
+                John believes mindfulness in the workplace is critical to success. <br>
+                 He lives out through her interests in sketching, meditation, games, <br> and painting. John is currently looking a Job to give a chance to <br>
+                show him skills and is always interested in a challenge. Reach out to ligerojohnkenneth@gmail.com</p>
+        </footer>
+    </section>
+
+    <section id="skills">
+        <footer class="container">
+            <h1>Skills</h1>
+            <div class="percent_bar">
+                <div class="box"> <!barpercent, html skills>
+                    <p>HTML5</p>
+                    <div class="progress_bar_box" id="progress_bar_box_html">
+                        <div class="progress_bar" id="progress_bar_html">
+                            <span class="line" id="line_html"></span>
+                        </div>
+                        <p class="increasing_percentage" id="increasing_percentage_html">0%</p>
+                        <div class="total_percentage" id="total_percentage_html">80%</div>
+                    </div>
+                </div>
+                <div class="box"> <!barpercent, css skills>
+                    <p>CSS3 / SCSS</p>
+                    <div class="progress_bar_box" id="progress_bar_box_css">
+                        <div class="progress_bar" id="progress_bar_css">
+                            <span class="line" id="line_css"></span>
+                        </div>
+                        <p class="increasing_percentage" id="increasing_percentage_css">0%</p>
+                        <div class="total_percentage" id="total_percentage_css">60%</div>
+                    </div>
+                </div>
+                <div class="box"> <!barpercent, JS skills>
+                    <p>JavaScript</p>
+                    <div class="progress_bar_box" id="progress_bar_box_js">
+                        <div class="progress_bar" id="progress_bar_js">
+                            <span class="line" id="line_js"></span>
+                        </div>
+                        <p class="increasing_percentage" id="increasing_percentage_js">0%</p>
+                        <div class="total_percentage" id="total_percentage_js">20%</div>
+                    </div>
+                </div>
+                <div class="box" id="box_c"> <!bar percent, C skills>
+                    <p>C</p>
+                    <div class="progress_bar_box" id="progress_bar_box_c">
+                        <div class="progress_bar" id="progress_bar_c">
+                            <span class="line" id="line_c"></span>
+                        </div>
+                        <p class="increasing_percentage" id="increasing_percentage_c">0%</p>
+                        <div class="total_percentage" id="total_percentage_c">20%</div>
+                    </div>
+                </div>
+                <div class="box" id="box_adobe"> <!bar percent, Adobe Photoshop skills>
+                    <p>Adobe Photoshop</p>
+                    <div class="progress_bar_box" id="progress_bar_box_adobe">
+                        <div class="progress_bar" id="progress_bar_adobe">
+                            <span class="line" id="line_adobe"></span>
+                        </div>
+                        <p class="increasing_percentage" id="increasing_percentage_adobe">0%</p>
+                        <div class="total_percentage" id="total_percentage_adobe">50%</div>
+                    </div>
+                </div>
+                <div class="box" id="box_ui"> <!bar percent, UI skills>
+                    <p>UI design</p>
+                    <div class="progress_bar_box" id="progress_bar_box_ui">
+                        <div class="progress_bar" id="progress_bar_ui">
+                            <span class="line" id="line_ui"></span>
+                        </div>
+                        <p class="increasing_percentage" id="increasing_percentage_ui">0%</p>
+                        <div class="total_percentage" id="total_percentage_ui">40%</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <section id="project">
+        <footer class="container">
+            <h1>Project</h1>
+            <p><span>Capstone project</span>, the website is base on client</p>
+
+           <!caeousel..>
+           <section class="wrapper">
+            <i class="fa-solid fa-arrow-left button" id="prev"></i>
+            <div class="image-container">
+              <div class="carousel">
+                <img src="../img/capstone.png" alt="">
+                <img src="../img/sc1.png" alt="">
+                <img src="../img/sc2.png" alt="">
+                <img src="../img/sc3.png" alt="">
+                <img src="../img/sc4.png" alt="">
+              </div>
+              <i class="fa-solid fa-arrow-right button" id="next"></i>
+            </div>
+          </section>
+          <p class="explain">
+            This website is to help people who want to know the computer part.
+            and to help with how to properly upgrade the pc, this website is called the Web-based E-learning Application on Computer Hardware Fundamentals
+            Our client decided the feature of the website is a friendly user anyone can use the website, for educational purposes and work use. 
+          </p>
+        </footer>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h1>Contact me here</h1>
+            <a href="https://www.facebook.com/akame.chan.351104/" class="fa-brands fa-facebook fa-2xl"></a>
+            <a href="https://github.com/JkLigero" class="fa-brands fa-github fa-2xl"></a>
+            <a href="https://mail.google.com/mail/u/2/#inbox?compose=new" class="fa-brands fa-google-plus-g fa-2xl"></a>
+            <a href="#" class="fa-brands fa-linkedin fa-2xl"></a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+</html>
